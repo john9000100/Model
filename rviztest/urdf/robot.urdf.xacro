@@ -19,7 +19,6 @@
 <xacro:property name="shoulder_height" value="0.22" />
 <xacro:property name="shoulder_mass" value="0.22" />
 
-
 <xacro:property name="upper_arm_length" value="0.55" />
 <xacro:property name="upper_arm_short_length" value="0.4" />
 <xacro:property name="upper_arm_width" value="0.02" />
@@ -232,6 +231,5 @@
  <child link="lower_arm_link" />
  <origin xyz="0 ${elbow_block_short_length} 0" rpy="0 0 0"/> 
 </joint>
-
 
 </robot>
